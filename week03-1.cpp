@@ -1,9 +1,9 @@
-//week03-1.cpp ¤G¦X¤@ªºC++ª©¥»
+//week03-1.cpp äºŒåˆä¸€çš„C++ç‰ˆæœ¬
 //Leetcode 2579.Count Total Number of Colored Cells
 class Solution {
 public:
     long long coloredCells(int n) {
-        long long ans = n;//­n¦h¼g³o¦æ¡A§â¼Æ¦r¤É¯Å¡A«K64¦ì¤¸{«Üªø«Üªøªº¾ã¼Æ}
-        return ans*ans+(ans-1)*(ans-1);//C/C++/Java/C#³£¶·¥[¤À¸¹
+        long long ans = n;//è¦å¤šå¯«é€™è¡Œï¼ŒæŠŠæ•¸å­—å‡ç´šï¼Œä¾¿64ä½å…ƒ{å¾ˆé•·å¾ˆé•·çš„æ•´æ•¸}
+        return ans*ans+(ans-1)*(ans-1);//C/C++/Java/C#éƒ½é ˆåŠ åˆ†è™Ÿ
     }
 };
